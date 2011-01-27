@@ -5,7 +5,7 @@
   (loop until (game-check-answer answer (game-guess))))
 
 (defun game-guess ()  
-    (parse-integer (game-read-input)))
+  (parse-integer (game-read-input)))
 
 (defun game-check-answer (answer guess)
   (cond
